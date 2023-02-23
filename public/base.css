@@ -1,0 +1,59 @@
+/* @font-face {
+    font-family: 'icomoon';
+    src:  url(' ../src/assets/fonts/icomoon.eot?7kkyc2');
+    src:  url('../src/assets/fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../src/assets/fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../src/assets/fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../src/assets/fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+} */
+* {
+    margin: 0;
+    padding: 0;
+    /* c3盒子模型 */
+    box-sizing: border-box;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+input {
+    border: 0px;
+    outline: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+em,i {
+    /* 字体不倾斜 */
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
